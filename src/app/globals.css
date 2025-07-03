@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --color-primary: #0A1F44;
+  --color-accent: #F9A825;
+  --color-white: #FFFFFF;
+  --color-light: #F5F5F5;
+  --color-success: #00A676;
+
+  --font-poppins: 'Poppins', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-primary {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.font-secondary {
+  font-family: var(--font-roboto), sans-serif;
+} 
