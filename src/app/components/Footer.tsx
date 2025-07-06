@@ -13,7 +13,11 @@ const Footer = () => {
 
         {/* Center: Social Icons */}
         <div className="flex space-x-4">
-          <a href="#">
+          <a 
+            href="https://www.instagram.com/rogistechs/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             <Image
               src="/icons/instagram.png"
               alt="Instagram"
@@ -22,16 +26,24 @@ const Footer = () => {
               className="hover:scale-110 transition-transform"
             />
           </a>
-          <a href="#">
+          <a 
+            href="https://x.com/rogistech" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             <Image
               src="/icons/twitter.png"
-              alt="Twitter"
+              alt="X (Twitter)"
               width={24}
               height={24}
               className="hover:scale-110 transition-transform"
             />
           </a>
-          <a href="#">
+          <a 
+            href="https://www.linkedin.com/company/rogistech/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             <Image
               src="/icons/linkedin.png"
               alt="LinkedIn"
@@ -40,7 +52,11 @@ const Footer = () => {
               className="hover:scale-110 transition-transform"
             />
           </a>
-          <a href="#">
+          <a 
+            href="https://wa.me/34651618621" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             <Image
               src="/icons/whatsapp.png"
               alt="WhatsApp"

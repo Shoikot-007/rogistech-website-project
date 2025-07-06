@@ -38,14 +38,14 @@ const Navbar = () => {
   return (
     <>
       <header className="fixed top-8 left-0 right-0 z-50 px-4" aria-label="Site Header">
-        <div className="bg-[#0B1A3B] rounded-xl max-w-7xl mx-auto px-3 py-3 md:px-6 md:py-4 flex justify-between items-center shadow-lg border border-white/10">
+        <div className="bg-[#0B1A3B] rounded-xl max-w-7xl mx-auto px-5 py-3 md:px-6 md:py-4 flex justify-between items-center shadow-lg border border-white/10">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
             <Image 
-              src="/rogis-logo.png" 
+              src="/rogistech-logo.png" 
               alt="ROGISGROUP LOGO" 
-              width={90} 
-              height={90}
+              width={27} 
+              height={27}
               priority
             />
           </Link>
